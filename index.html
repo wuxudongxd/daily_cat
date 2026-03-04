@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Cat</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>今日小猫</h1>
+      <p class="hint">每次刷新页面，都会随机预览一只小猫。</p>
+
+      <section class="card">
+        <div class="image-wrap">
+          <img id="cat-image" alt="随机小猫" />
+          <p id="status" class="status">正在加载小猫...</p>
+        </div>
+        <button id="next-btn" type="button">换一只</button>
+      </section>
+    </main>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
